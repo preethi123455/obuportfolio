@@ -7,7 +7,7 @@ const Hero = () => {
   const textRef = useRef<HTMLSpanElement>(null)
 
   useEffect(() => {
-    const text = "Full-Stack Developer & AI/ML Enthusiast"
+    const text = "Software Developer"
     const element = textRef.current
     if (!element) return
 

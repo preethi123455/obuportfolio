@@ -50,6 +50,7 @@ const Projects = () => {
   demo: '#',
   image: 'https://images01.nicepagecdn.com/page/74/31/website-template-preview-74317.jpg',
 },
+{ title: 'Orangyy – Orange Juice Website', description: 'Orangyy is a full-stack e-commerce web application built for learning purposes. Users can browse, select, and order a variety of orange juice products through a responsive and interactive interface.', tags: ['React', 'Node.js', 'MongoDB', 'Express.js'], github: '#', demo: '#', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJIX9YFz1ejgrcLe08P9x8Y_Eep1g05gxOUg&s', },
 
   ]
 
