@@ -87,7 +87,7 @@ const Hero = () => {
           >
             <div className="w-full h-full rounded-2xl overflow-hidden border-4 border-primary/20 shadow-2xl shadow-primary/30 glow-border">
               <img
-                src="/developer-portrait.jpg"
+                src="components/sections/WhatsApp Image 2025-12-01 at 00.12.33_5de0bc11.jpg"
                 alt="Developer"
                 className="w-full h-full object-cover"
               />
