@@ -7,7 +7,7 @@ const Hero = () => {
   const textRef = useRef<HTMLSpanElement>(null)
 
   useEffect(() => {
-    const text = "Software Engineer"
+    const text = "Full-Stack Developer & AI/ML Enthusiast"
     const element = textRef.current
     if (!element) return
 
@@ -36,7 +36,7 @@ const Hero = () => {
         >
 
           <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
-            PRANEESH C
+            OBUPREETHI G
             <span
               ref={textRef}
               className="block bg-gradient-to-r from-primary via-accent-light to-primary bg-clip-text text-transparent min-h-20"

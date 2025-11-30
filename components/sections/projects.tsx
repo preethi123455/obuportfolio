@@ -25,14 +25,7 @@ const Projects = () => {
       demo: '#',
       image: 'https://repository-images.githubusercontent.com/228405622/b739ad00-211d-11ea-958d-d3400a7ea1dc',
     },
-    {
-      title: 'Sentiment Analyser',
-      description: 'An AI-powered Sentiment Analyser built with Python and Machine Learning.',
-      tags: ['Next.js', 'TypeScript', 'Supabase', 'Framer Motion'],
-      github: '#',
-      demo: '#',
-      image: 'https://dc4ifv9abstiv.cloudfront.net/blog/2024/11/Sentiment-Analysis-Tools21.jpg?v=1763141149615',
-    },
+    
     {
       title: 'EduConnect Platform with the help of AI',
       description: 'EduConnect is an AI-powered platform designed to enhance personalized learning experiences, connecting students with tailored educational resources and opportunities for growth.',
@@ -49,14 +42,15 @@ const Projects = () => {
       demo: '#',
       image: 'https://obupreethi.netlify.app/assets/p10-OxdkNjox.png',
     },
-    {
-      title: 'Orangyy – Orange Juice Website',
-      description: 'Orangyy is a full-stack e-commerce web application built for learning purposes. Users can browse, select, and order a variety of orange juice products through a responsive and interactive interface.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Express.js'],
-      github: '#',
-      demo: '#',
-      image: 'public/image.png',
-    },
+   {
+  title: 'LinguaLearn – AI-Powered Language Learning Platform',
+  description: 'LinguaLearn is an AI-driven, gamified language learning platform designed to improve vocabulary, pronunciation, and grammar through interactive lessons, quizzes, speech recognition, and personalized feedback. The platform includes multilingual support, real-time translation, and progress tracking.',
+  tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'AI/ML', 'NLP'],
+  github: '#',
+  demo: '#',
+  image: 'https://images01.nicepagecdn.com/page/74/31/website-template-preview-74317.jpg',
+},
+
   ]
 
   const containerVariants = {

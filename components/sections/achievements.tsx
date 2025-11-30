@@ -11,6 +11,16 @@ const Achievements = () => {
   const achievements = [
     {
       year: '2025',
+      title: 'EDUCONNECT PLATFORM WITH THE HELP OF AI',
+      description: 'Won 1ST Prize in HackBuzz, in Kongu Engineering College.',
+    },
+    {
+      year: '2025',
+      title: 'MATHS VISUALIZATION WITH THE HELP OF AI',
+      description: 'Won Overall Winner Prize in Byts India Hackathon at Kongu Engineering College',
+    },
+    {
+      year: '2025',
       title: 'SENIOR CITIZEN PORTAL',
       description: 'Won 2nd Prize in KEC Hackathon for outstanding contributions to the project.',
     },
@@ -19,6 +29,14 @@ const Achievements = () => {
       title: 'BLOOD DONATION PLATFORM',
       description: 'Won 2nd Prize in Hackons, Trivandrum, Kerala at Mohandas College of Engineering and Technology.',
     },
+    {
+  year: '2024',
+  title: 'Paper Presentation',
+  description: 'Won 1st Prize in a paper presentation at Kongu Engineering College on the topic "Life History of Srinivasa Ramanujan and His Mathematical Contributions."',
+},
+
+
+
     // Add more achievements if needed
   ]
 

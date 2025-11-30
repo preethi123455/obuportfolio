@@ -8,10 +8,10 @@ const Contact = () => {
   const isInView = useInView(ref, { once: true, amount: 0.3 })
 
   const socials = [
-    { name: 'GitHub', icon: '🐙', url: 'https://github.com/Praneesh773' },
-    { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/praneesh-c-56641132b/' },
-    { name: 'Leetcode', icon: '⚡', url: 'https://leetcode.com/u/Praneeshc/' },
-    { name: 'Email', icon: '✉️', url: 'mailto:praneesh582@gmail.com' },
+    { name: 'GitHub', icon: '🐙', url: 'https://github.com/Preethi123455' },
+    { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/obupreethi/' },
+    { name: 'Leetcode', icon: '⚡', url: 'https://leetcode.com/u/OBUPREETHI_G_/' },
+    { name: 'Email', icon: '✉️', url: 'mailto:preethiusha007@gmail.com' },
   ]
 
   return (
@@ -25,9 +25,9 @@ const Contact = () => {
           className="space-y-6"
         >
           {[ 
-            { icon: '📧', title: 'Email', info: 'praneesh582@gmail.com' },
-            { icon: '📱', title: 'Phone', info: '+91 97865 27455' },
-            { icon: '📍', title: 'Location', info: 'Erode, Tamil Nadu, India' },
+            { icon: '📧', title: 'Email', info: 'preethiusha007@gmail.com' },
+            { icon: '📱', title: 'Phone', info: '+91 63796 77950' },
+            { icon: '📍', title: 'Location', info: 'Salem, Tamil Nadu, India' },
           ].map((item, index) => (
             <motion.div
               key={index}
