@@ -51,12 +51,7 @@ const Hero = () => {
           </p>
 
           <div className="flex gap-4">
-            <button className="px-8 py-3 bg-gradient-to-r from-primary to-accent-light text-white rounded-full hover:shadow-lg hover:shadow-primary/50 transition-all transform hover:scale-105">
-              View My Work
-            </button>
-            <button className="px-8 py-3 border-2 border-primary text-primary rounded-full hover:bg-primary/10 transition-all">
-              Download CV
-            </button>
+  
           </div>
         </motion.div>
 

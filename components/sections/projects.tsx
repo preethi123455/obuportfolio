@@ -131,7 +131,7 @@ const Projects = () => {
                   </div>
 
                   {/* Links */}
-                  <div className="flex gap-3 pt-4 mt-auto border-t border-white/20">
+                  {/* <div className="flex gap-3 pt-4 mt-auto border-t border-white/20">
                     <a
                       href={project.github}
                       className="flex-1 px-4 py-2 bg-foreground text-white text-sm font-semibold rounded-lg hover:bg-primary transition-colors text-center"
@@ -144,7 +144,7 @@ const Projects = () => {
                     >
                       Demo
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </motion.div>
