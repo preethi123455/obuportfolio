@@ -64,9 +64,13 @@ export default function Navigation({ activeSection }: NavigationProps) {
             ))}
           </div>
 
-          <button className="hidden md:block px-6 py-2 bg-gradient-to-r from-primary to-accent-light text-white rounded-full hover:shadow-lg hover:shadow-primary/50 transition-all">
-            Resume
-          </button>
+          <button
+  onClick={() => window.open("/final 1 (6).pdf", "_blank")}
+  className="hidden md:block px-6 py-2 bg-gradient-to-r from-primary to-accent-light text-white rounded-full hover:shadow-lg hover:shadow-primary/50 transition-all"
+>
+  Resume
+</button>
+
         </div>
       </nav>
 
