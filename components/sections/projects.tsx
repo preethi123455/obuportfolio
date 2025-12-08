@@ -13,16 +13,16 @@ const Projects = () => {
       title: 'Senior citizen portal',
       description: 'A dedicated platform offering essential services, healthcare support, and community engagement for senior citizens.',
       tags: ['React', 'Node.js', 'MongoDB', 'Express.js'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/preethi123455/Senior__citizen__portal',
+      demo: 'https://senior-citizen-portal-frontend.onrender.com',
       image: 'https://obupreethi.netlify.app/assets/p2-Cym8R_5o.jpg',
     },
     {
       title: 'Blood Donation Platform',
       description: 'A secure and real-time platform connecting blood donors with recipients, featuring user authentication, instant notifications, and emergency blood request management.',
       tags: ['Python', 'Machine Learning', 'NLP', 'Data Analysis', 'AI', 'Scikit-learn', 'Pandas', 'NumPy'],
-      github: '#',
-      demo: '#',
+      github: ' https://github.com/Praneesh773/Blood.git',
+      demo: 'https://bloodbank-g10h.onrender.com/',
       image: 'https://repository-images.githubusercontent.com/228405622/b739ad00-211d-11ea-958d-d3400a7ea1dc',
     },
     
@@ -30,16 +30,16 @@ const Projects = () => {
       title: 'EduConnect Platform with the help of AI',
       description: 'EduConnect is an AI-powered platform designed to enhance personalized learning experiences, connecting students with tailored educational resources and opportunities for growth.',
       tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'RAG','Groq api'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/preethi123455/Educonnect__Platform.git',
+      demo: ' https://educonnect-platform-frontend.onrender.com',
       image: 'https://obupreethi.netlify.app/assets/p1-Ccqc7931.jpg',
     },
     {
       title: 'Math visualization with the help of AI',
       description: 'This project leverages AI to create interactive visualizations that simplify complex mathematical concepts for enhanced understanding and learning.',
       tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'RAG','Groq api'],
-      github: '#',
-      demo: '#',
+      github: ' https://github.com/preethi123455/visual__math',
+      demo: 'https://visual-frontend-bsfk.onrender.com',
       image: 'https://obupreethi.netlify.app/assets/p10-OxdkNjox.png',
     },
    {
@@ -50,7 +50,19 @@ const Projects = () => {
   demo: '#',
   image: 'https://images01.nicepagecdn.com/page/74/31/website-template-preview-74317.jpg',
 },
-{ title: 'Orangyy – Orange Juice Website', description: 'Orangyy is a full-stack e-commerce web application built for learning purposes. Users can browse, select, and order a variety of orange juice products through a responsive and interactive interface.', tags: ['React', 'Node.js', 'MongoDB', 'Express.js'], github: '#', demo: '#', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJIX9YFz1ejgrcLe08P9x8Y_Eep1g05gxOUg&s', },
+{ title: 'Orangyy – Orange Juice Website', description: 'Orangyy is a full-stack e-commerce web application built for learning purposes. Users can browse, select, and order a variety of orange juice products through a responsive and interactive interface.', tags: ['React', 'Node.js', 'MongoDB', 'Express.js'], 
+  github: 'https://github.com/preethi123455/orangyy',
+   demo: 'https://orangyy-frontend-nirv.onrender.com/', 
+   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJIX9YFz1ejgrcLe08P9x8Y_Eep1g05gxOUg&s', 
+  },
+  {
+  title: 'FaceAuth – AI Powered Face Recognition Login System',
+  description: 'FaceAuth is an AI-driven authentication system that uses Face Recognition to enable secure login and signup. Users can register with facial biometrics, and the system matches face data using deep learning-based embeddings for identity verification. Built with MERN stack and integrated with Face API for intelligent recognition.',
+  tags: ['React', 'Node.js', 'MongoDB', 'Express.js', 'FaceAPI', 'AI'],
+  github: 'https://github.com/preethi123455/face-recognition-signup-and-login',
+  demo: ' https://educonnect-platform-frontend.onrender.com',
+  image: 'https://cdn.analyticsvidhya.com/wp-content/uploads/2023/12/Screenshot_from_2023-12-18_06-22-33.png'
+},
 
   ]
 
@@ -131,7 +143,7 @@ const Projects = () => {
                   </div>
 
                   {/* Links */}
-                  {/* <div className="flex gap-3 pt-4 mt-auto border-t border-white/20">
+                   <div className="flex gap-3 pt-4 mt-auto border-t border-white/20">
                     <a
                       href={project.github}
                       className="flex-1 px-4 py-2 bg-foreground text-white text-sm font-semibold rounded-lg hover:bg-primary transition-colors text-center"
@@ -144,7 +156,7 @@ const Projects = () => {
                     >
                       Demo
                     </a>
-                  </div> */}
+                  </div> 
                 </div>
               </div>
             </motion.div>
