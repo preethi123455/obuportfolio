@@ -60,7 +60,7 @@ const Projects = () => {
   description: 'FaceAuth is an AI-driven authentication system that uses Face Recognition to enable secure login and signup. Users can register with facial biometrics, and the system matches face data using deep learning-based embeddings for identity verification. Built with MERN stack and integrated with Face API for intelligent recognition.',
   tags: ['React', 'Node.js', 'MongoDB', 'Express.js', 'FaceAPI', 'AI'],
   github: 'https://github.com/preethi123455/face-recognition-signup-and-login',
-  demo: ' https://educonnect-platform-frontend.onrender.com',
+  demo: ' https://face-recognition-signup-and-login-1.onrender.com',
   image: 'https://cdn.analyticsvidhya.com/wp-content/uploads/2023/12/Screenshot_from_2023-12-18_06-22-33.png'
 },
 
