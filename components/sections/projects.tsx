@@ -53,7 +53,7 @@ const Projects = () => {
 { title: 'Orangyy – Orange Juice Website', description: 'Orangyy is a full-stack e-commerce web application built for learning purposes. Users can browse, select, and order a variety of orange juice products through a responsive and interactive interface.', tags: ['React', 'Node.js', 'MongoDB', 'Express.js'], 
   github: 'https://github.com/preethi123455/orangyy',
    demo: 'https://orangyy-frontend-nirv.onrender.com/', 
-   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJIX9YFz1ejgrcLe08P9x8Y_Eep1g05gxOUg&s', 
+   image: 'https://img.freepik.com/premium-psd/summer-fresh-drink-special-new-menu-promotion-orange-juice-website-landing-page-banner-template_485905-724.jpg', 
   },
   {
   title: 'FaceAuth – AI Powered Face Recognition Login System',
