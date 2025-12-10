@@ -16,6 +16,7 @@ const Projects = () => {
       github: 'https://github.com/preethi123455/Senior__citizen__portal',
       demo: 'https://senior-citizen-portal-frontend.onrender.com',
       image: 'https://obupreethi.netlify.app/assets/p2-Cym8R_5o.jpg',
+       learnMore: '/blood-donation-details' ,
     },
     {
       title: 'Blood Donation Platform',
@@ -24,6 +25,7 @@ const Projects = () => {
       github: ' https://github.com/Praneesh773/Blood.git',
       demo: 'https://bloodbank-g10h.onrender.com/',
       image: 'https://repository-images.githubusercontent.com/228405622/b739ad00-211d-11ea-958d-d3400a7ea1dc',
+        learnMore: '/blood-donation-details' ,
     },
     
     {
@@ -33,6 +35,7 @@ const Projects = () => {
       github: 'https://github.com/preethi123455/Educonnect__Platform.git',
       demo: ' https://educonnect-platform-frontend.onrender.com',
       image: 'https://obupreethi.netlify.app/assets/p1-Ccqc7931.jpg',
+        learnMore: '/blood-donation-details' ,
     },
     {
       title: 'Math visualization with the help of AI',
@@ -41,6 +44,7 @@ const Projects = () => {
       github: ' https://github.com/preethi123455/visual__math',
       demo: 'https://visual-frontend-bsfk.onrender.com',
       image: 'https://obupreethi.netlify.app/assets/p10-OxdkNjox.png',
+        learnMore: '/blood-donation-details' ,
     },
    {
   title: 'LinguaLearn – AI-Powered Language Learning Platform',
@@ -49,11 +53,13 @@ const Projects = () => {
   github: '#',
   demo: '#',
   image: 'https://images01.nicepagecdn.com/page/74/31/website-template-preview-74317.jpg',
+    learnMore: '/blood-donation-details' ,
 },
 { title: 'Orangyy – Orange Juice Website', description: 'Orangyy is a full-stack e-commerce web application built for learning purposes. Users can browse, select, and order a variety of orange juice products through a responsive and interactive interface.', tags: ['React', 'Node.js', 'MongoDB', 'Express.js'], 
   github: 'https://github.com/preethi123455/orangyy',
    demo: 'https://orangyy-frontend-nirv.onrender.com/', 
    image: 'https://img.freepik.com/premium-psd/summer-fresh-drink-special-new-menu-promotion-orange-juice-website-landing-page-banner-template_485905-724.jpg', 
+     learnMore: '/blood-donation-details' ,
   },
   {
   title: 'FaceAuth – AI Powered Face Recognition Login System',
@@ -61,7 +67,8 @@ const Projects = () => {
   tags: ['React', 'Node.js', 'MongoDB', 'Express.js', 'FaceAPI', 'AI'],
   github: 'https://github.com/preethi123455/face-recognition-signup-and-login',
   demo: ' https://face-recognition-signup-and-login-1.onrender.com',
-  image: 'https://cdn.analyticsvidhya.com/wp-content/uploads/2023/12/Screenshot_from_2023-12-18_06-22-33.png'
+  image: 'https://cdn.analyticsvidhya.com/wp-content/uploads/2023/12/Screenshot_from_2023-12-18_06-22-33.png',
+    learnMore: '/blood-donation-details' ,
 },
 
   ]
@@ -155,6 +162,12 @@ const Projects = () => {
                       className="flex-1 px-4 py-2 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary-dark transition-colors text-center"
                     >
                       Demo
+                    </a>
+                    <a
+                     href={project.learnMore}
+                      className="flex-1 px-4 py-2 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary-dark transition-colors text-center"
+                    >
+                      Learn more
                     </a>
                   </div> 
                 </div>
