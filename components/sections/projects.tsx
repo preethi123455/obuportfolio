@@ -50,8 +50,8 @@ const Projects = () => {
   title: 'LinguaLearn – AI-Powered Language Learning Platform',
   description: 'LinguaLearn is an AI-driven, gamified language learning platform designed to improve vocabulary, pronunciation, and grammar through interactive lessons, quizzes, speech recognition, and personalized feedback. The platform includes multilingual support, real-time translation, and progress tracking.',
   tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'AI/ML', 'NLP'],
-  github: '#',
-  demo: '#',
+  github: 'https://github.com/preethi123455/lingua-learn-final.git',
+  demo: 'https://lingua-learn-final-frontend.onrender.com/',
   image: 'https://images01.nicepagecdn.com/page/74/31/website-template-preview-74317.jpg',
     learnMore: '/blood-donation-details' ,
 },
@@ -70,6 +70,18 @@ const Projects = () => {
   image: 'https://cdn.analyticsvidhya.com/wp-content/uploads/2023/12/Screenshot_from_2023-12-18_06-22-33.png',
     learnMore: '/blood-donation-details' ,
 },
+{
+  title: "My Portfolio – Personal Developer Website",
+  description:
+    "A clean and modern personal portfolio website built to showcase my skills, projects, achievements, and contact details. It has smooth animations, a responsive design, and separate sections like About, Technologies, Projects, and Contact.",
+  tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+  github: " https://github.com/preethi123455/obuportfolio",
+  demo: "https://obuportfolio.onrender.com",
+  image:
+    "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
+  learnMore: "/portfolio-details",
+},
+
 
   ]
 
