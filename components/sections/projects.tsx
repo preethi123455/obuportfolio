@@ -8,116 +8,108 @@ const Projects = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.3 })
 
-  const projects = [
-    {
-      title: 'Senior citizen portal',
-      description: 'A dedicated platform offering essential services, healthcare support, and community engagement for senior citizens.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Express.js'],
-      github: 'https://github.com/preethi123455/Senior__citizen__portal',
-      demo: 'https://senior-citizen-portal-frontend.onrender.com',
-      image: 'https://obupreethi.netlify.app/assets/p2-Cym8R_5o.jpg',
-       learnMore: '/blood-donation-details' ,
-    },
-    {
-      title: 'Blood Donation Platform',
-      description: 'A secure and real-time platform connecting blood donors with recipients, featuring user authentication, instant notifications, and emergency blood request management.',
-      tags: ['Python', 'Machine Learning', 'NLP', 'Data Analysis', 'AI', 'Scikit-learn', 'Pandas', 'NumPy'],
-      github: ' https://github.com/Praneesh773/Blood.git',
-      demo: 'https://bloodbank-g10h.onrender.com/',
-      image: 'https://repository-images.githubusercontent.com/228405622/b739ad00-211d-11ea-958d-d3400a7ea1dc',
-        learnMore: '/blood-donation-details' ,
-    },
-    
-    {
-      title: 'EduConnect Platform with the help of AI',
-      description: 'EduConnect is an AI-powered platform designed to enhance personalized learning experiences, connecting students with tailored educational resources and opportunities for growth.',
-      tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'RAG','Groq api'],
-      github: 'https://github.com/preethi123455/Educonnect__Platform.git',
-      demo: ' https://educonnect-platform-frontend.onrender.com',
-      image: 'https://obupreethi.netlify.app/assets/p1-Ccqc7931.jpg',
-        learnMore: '/blood-donation-details' ,
-    },
-    {
-      title: 'Math visualization with the help of AI',
-      description: 'This project leverages AI to create interactive visualizations that simplify complex mathematical concepts for enhanced understanding and learning.',
-      tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'RAG','Groq api'],
-      github: ' https://github.com/preethi123455/visual__math',
-      demo: 'https://visual-frontend-bsfk.onrender.com',
-      image: 'https://obupreethi.netlify.app/assets/p10-OxdkNjox.png',
-        learnMore: '/blood-donation-details' ,
-    },
-   {
-  title: 'LinguaLearn – AI-Powered Language Learning Platform',
-  description: 'LinguaLearn is an AI-driven, gamified language learning platform designed to improve vocabulary, pronunciation, and grammar through interactive lessons, quizzes, speech recognition, and personalized feedback. The platform includes multilingual support, real-time translation, and progress tracking.',
-  tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'AI/ML', 'NLP'],
-  github: 'https://github.com/preethi123455/lingua-learn-final.git',
-  demo: 'https://lingua-learn-final-frontend.onrender.com/',
-  image: 'https://images01.nicepagecdn.com/page/74/31/website-template-preview-74317.jpg',
-    learnMore: '/blood-donation-details' ,
-},
-{ title: 'Orangyy – Orange Juice Website', description: 'Orangyy is a full-stack e-commerce web application built for learning purposes. Users can browse, select, and order a variety of orange juice products through a responsive and interactive interface.', tags: ['React', 'Node.js', 'MongoDB', 'Express.js'], 
-  github: 'https://github.com/preethi123455/orangyy',
-   demo: 'https://orangyy-frontend-nirv.onrender.com/', 
-   image: 'https://img.freepik.com/premium-psd/summer-fresh-drink-special-new-menu-promotion-orange-juice-website-landing-page-banner-template_485905-724.jpg', 
-     learnMore: '/blood-donation-details' ,
+ const projects = [
+  {
+    title: 'Senior citizen portal',
+    description: 'A dedicated platform offering essential services, healthcare support, and community engagement for senior citizens.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Express.js'],
+    github: 'https://github.com/preethi123455/Senior__citizen__portal',
+    demo: 'https://senior-citizen-portal-frontend.onrender.com',
+    image: 'https://obupreethi.netlify.app/assets/p2-Cym8R_5o.jpg',
+    learnMore: '/blood-donation-details',
   },
   {
-  title: 'FaceAuth – AI Powered Face Recognition Login System',
-  description: 'FaceAuth is an AI-driven authentication system that uses Face Recognition to enable secure login and signup. Users can register with facial biometrics, and the system matches face data using deep learning-based embeddings for identity verification. Built with MERN stack and integrated with Face API for intelligent recognition.',
-  tags: ['React', 'Node.js', 'MongoDB', 'Express.js', 'FaceAPI', 'AI'],
-  github: 'https://github.com/preethi123455/face-recognition-signup-and-login',
-  demo: ' https://face-recognition-signup-and-login-1.onrender.com',
-  image: 'https://cdn.analyticsvidhya.com/wp-content/uploads/2023/12/Screenshot_from_2023-12-18_06-22-33.png',
-    learnMore: '/blood-donation-details' ,
-},
-{
-  title: "My Portfolio – Personal Developer Website",
-  description:
-    "A clean and modern personal portfolio website built to showcase my skills, projects, achievements, and contact details. It has smooth animations, a responsive design, and separate sections like About, Technologies, Projects, and Contact.",
-  tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
-  github: " https://github.com/preethi123455/obuportfolio",
-  demo: "https://obuportfolio.onrender.com",
-  image:
-    "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
-  learnMore: "/portfolio-details",
-},
-{
-  title: "Cognissance – CSE Department Event Promotion Website",
-  description:
-    "An interactive event promotion website built for the CSE Department to showcase event details, schedules, rules, and registrations. Instead of using traditional forms or a MERN backend, we integrated Google Sheets with Node.js to store and manage registrations seamlessly. The site includes smooth animations, a responsive UI, and a clean structure for better engagement and participation.",
-  tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Node.js", "Google Sheets API"],
-  github: "https://github.com/Gurukprs/Cognissance_Website.git",
-  demo: "https://cognissance25.vercel.app",
-  image:
-    "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
-  learnMore: "/portfolio-details",
-},
-{
-  title: "Bus Booking Platform – Figma UI Design",
-  description:
-    "An intuitive and user-friendly bus booking interface designed in Figma to simplify ticket booking and travel planning. The design includes smooth navigation flows, seat selection screens, route listings, payment steps, and responsive layouts focused on delivering a seamless user experience.",
-  tags: ["Figma", "UI/UX Design", "Prototyping", "User Flow"],
-  github: " https://github.com/preethi123455/obuportfolio",
-  demo: "https://www.figma.com/design/NEgDF0N2OlDa6D619HudK0/Untitled?node-id=0-1&t=hO1htFRrvs2BAiKM-1",
-  image:
-    "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
-  learnMore: "/portfolio-details",
-},
-{
-  title: "Online Bookstore Platform – Figma UI Design",
-  description:
-    "A modern and visually engaging online bookstore interface designed in Figma to deliver a seamless shopping experience for book enthusiasts. The design includes organized category browsing, detailed book pages, smooth checkout flows, and intuitive navigation to improve user engagement and accessibility.",
-  tags: ["Figma", "UI/UX Design", "Prototyping", "Wireframing"],
-  github: " https://github.com/preethi123455/obuportfolio",
-  demo: "https://www.figma.com/design/ozrx9GHHH8lVps0KMlCXSW/Untitled?node-id=12-36&t=hf1C75OyPzuylqGe-1",
-  image:
-    "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
-  learnMore: "/portfolio-details",
-},
+    title: 'Blood Donation Platform',
+    description: 'A secure and real-time platform connecting blood donors with recipients, featuring user authentication, instant notifications, and emergency blood request management.',
+    tags: ['Python', 'Machine Learning', 'NLP', 'Data Analysis', 'AI', 'Scikit-learn', 'Pandas', 'NumPy'],
+    github: 'https://github.com/Praneesh773/Blood.git',
+    demo: 'https://bloodbank-g10h.onrender.com/',
+    image: 'https://repository-images.githubusercontent.com/228405622/b739ad00-211d-11ea-958d-d3400a7ea1dc',
+    learnMore: '/blood-donation-details',
+  },
+  {
+    title: 'EduConnect Platform with the help of AI',
+    description: 'EduConnect is an AI-powered platform designed to enhance personalized learning experiences.',
+    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'RAG', 'Groq api'],
+    github: 'https://github.com/preethi123455/Educonnect__Platform.git',
+    demo: 'https://educonnect-platform-frontend.onrender.com',
+    image: 'https://obupreethi.netlify.app/assets/p1-Ccqc7931.jpg',
+    learnMore: '/blood-donation-details',
+  },
+  {
+    title: 'Math visualization with the help of AI',
+    description: 'This project leverages AI to create interactive visualizations that simplify complex mathematical concepts.',
+    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'RAG', 'Groq api'],
+    github: 'https://github.com/preethi123455/visual__math',
+    demo: 'https://visual-frontend-bsfk.onrender.com',
+    image: 'https://obupreethi.netlify.app/assets/p10-OxdkNjox.png',
+    learnMore: '/blood-donation-details',
+  },
+  {
+    title: 'LinguaLearn – AI-Powered Language Learning Platform',
+    description: 'AI-driven, gamified language learning platform for Hindi, Tamil, English, German & Spanish.',
+    tags: ['React', 'Node.js', 'Express.js', 'MongoDB', 'AI/ML', 'NLP'],
+    github: 'https://github.com/preethi123455/lingua-learn-final.git',
+    demo: 'https://lingua-learn-final-frontend.onrender.com/',
+    image: 'https://images01.nicepagecdn.com/page/74/31/website-template-preview-74317.jpg',
+    learnMore: '/blood-donation-details',
+  },
+  {
+    title: 'Orangyy – Orange Juice Website',
+    description: 'Full-stack e-commerce app for ordering orange juices.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Express.js'],
+    github: 'https://github.com/preethi123455/orangyy',
+    demo: 'https://orangyy-frontend-nirv.onrender.com/',
+    image: 'https://img.freepik.com/premium-psd/summer-fresh-drink-special-new-menu-promotion-orange-juice-website-landing-page-banner-template_485905-724.jpg',
+    learnMore: '/blood-donation-details',
+  },
+  {
+    title: 'FaceAuth – AI Powered Face Recognition Login System',
+    description: 'AI-based facial login + signup system using FaceAPI & MERN.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Express.js', 'FaceAPI', 'AI'],
+    github: 'https://github.com/preethi123455/face-recognition-signup-and-login',
+    demo: 'https://face-recognition-signup-and-login-1.onrender.com',
+    image: 'https://cdn.analyticsvidhya.com/wp-content/uploads/2023/12/Screenshot_from_2023-12-18_06-22-33.png',
+    learnMore: '/blood-donation-details',
+  },
+  {
+    title: "My Portfolio – Personal Developer Website",
+    description: "A clean and modern personal portfolio website showcasing skills, projects, and achievements.",
+    tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/preethi123455/obuportfolio",
+    demo: "https://obuportfolio.onrender.com",
+    image: "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
+    learnMore: "/portfolio-details",
+  },
+  {
+    title: "Cognissance – CSE Department Event Promotion Website",
+    description: "Interactive event promotion website integrated with Google Sheets API.",
+    tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Node.js", "Google Sheets API"],
+    github: "https://github.com/Gurukprs/Cognissance_Website.git",
+    demo: "https://cognissance25.vercel.app",
+    image: "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
+    learnMore: "/portfolio-details",
+  },
+  {
+    title: "Bus Booking Platform – Figma UI Design",
+    description: "User-friendly bus booking UI created in Figma.",
+    tags: ["Figma", "UI/UX Design", "Prototyping", "User Flow"],
+    github: "https://github.com/preethi123455/obuportfolio",
+    demo: "https://www.figma.com/design/NEgDF0N2OlDa6D619HudK0/Untitled",
+    image: "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
+    learnMore: "/portfolio-details",
+  },
+  {
+    title: "Online Bookstore Platform – Figma UI Design",
+    description: "A modern bookstore interface designed in Figma.",
+    tags: ["Figma", "UI/UX Design", "Prototyping", "Wireframing"],
+    github: "https://github.com/preethi123455/obuportfolio",
+    demo: "https://www.figma.com/design/ozrx9GHHH8lVps0KMlCXSW/Untitled",
+    image: "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
+    learnMore: "/portfolio-details",
+  }
+];
 
-
-
-  ]
 
   const containerVariants = {
     hidden: { opacity: 0 },
