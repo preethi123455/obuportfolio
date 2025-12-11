@@ -89,7 +89,7 @@ const Projects = () => {
   github: "https://github.com/Gurukprs/Cognissance_Website.git",
   demo: "https://cognissance25.vercel.app",
   image:
-    "https://media.licdn.com/dms/image/v2/D5612AQHHTTICSfxTgg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693153639814?e=2147483647&v=beta&t=wnQme2KlFUkFjzB7ydAEDsbKggNKgZefaKz_36RtDeY",
+    "#",
   learnMore: "/portfolio-details"
 },
 
@@ -99,7 +99,7 @@ const Projects = () => {
     "An intuitive and user-friendly bus booking interface designed in Figma to simplify ticket booking and travel planning. The design includes smooth navigation flows, seat selection screens, route listings, payment steps, and responsive layouts focused on delivering a seamless user experience.",
   tags: ["Figma", "UI/UX Design", "Prototyping", "User Flow"],
   demo: "https://www.figma.com/design/NEgDF0N2OlDa6D619HudK0/Untitled?node-id=0-1&t=hO1htFRrvs2BAiKM-1", 
-  image: "/image.png", 
+  image: "https://media.licdn.com/dms/image/v2/D5612AQHHTTICSfxTgg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693153639814?e=2147483647&v=beta&t=wnQme2KlFUkFjzB7ydAEDsbKggNKgZefaKz_36RtDeY", 
   learnMore: "/portfolio-details"
 },
 
@@ -112,10 +112,6 @@ const Projects = () => {
   image: "https://www.shutterstock.com/image-illustration/bookcase-full-books-contemporary-cozy-600nw-2421980715.jpg", 
   learnMore: "/portfolio-details"
 },
-
-
-
-
   ]
 
   const containerVariants = {
