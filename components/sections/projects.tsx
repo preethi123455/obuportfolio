@@ -87,9 +87,9 @@ const Projects = () => {
     "An interactive event promotion website built for the CSE Department to showcase event details, schedules, rules, and registrations. Instead of using traditional forms like google forms, we integrated Google Sheets with Node.js to store and manage registrations seamlessly. The site includes smooth animations, a responsive UI, and a clean structure for better engagement and participation.",
   tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Node.js", "Google Sheets API"],
   github: "https://github.com/Gurukprs/Cognissance_Website.git",
-  demo: "cognissance25.vercel.app",
+  demo: "https://cognissance25.vercel.app",
   image:
-    "/image1.jpg",
+    "https://media.licdn.com/dms/image/v2/D5612AQHHTTICSfxTgg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693153639814?e=2147483647&v=beta&t=wnQme2KlFUkFjzB7ydAEDsbKggNKgZefaKz_36RtDeY",
   learnMore: "/portfolio-details"
 },
 
@@ -109,7 +109,7 @@ const Projects = () => {
     "A modern and visually engaging online bookstore interface designed in Figma to deliver a seamless shopping experience for book enthusiasts. The design includes organized category browsing, detailed book pages, smooth checkout flows, and intuitive navigation to improve user engagement and accessibility.",
   tags: ["Figma", "UI/UX Design", "Prototyping", "Wireframing"],
   demo: "https://www.figma.com/design/ozrx9GHHH8lVps0KMlCXSW/Untitled?node-id=12-36&t=hf1C75OyPzuylqGe-1", 
-  image: "/image3.jpg", 
+  image: "https://www.shutterstock.com/image-illustration/bookcase-full-books-contemporary-cozy-600nw-2421980715.jpg", 
   learnMore: "/portfolio-details"
 },
 
