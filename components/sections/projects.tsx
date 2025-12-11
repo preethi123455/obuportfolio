@@ -128,19 +128,14 @@ const Projects = () => {
   }
 
   return (
-    <section ref={ref} className="min-h-screen flex items-center justify-center py-20 px-6">
+    <section ref={ref} className="min-h-screen flex items-center justify-center py-20 px-6 bg-background">
       <div className="max-w-6xl w-full">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
-          transition={{ duration: 0.6 }}
-          className="text-4xl lg:text-5xl font-bold mb-16 text-center"
-        >
+        <h2 className="text-4xl lg:text-5xl font-bold mb-16 text-center text-foreground">
           Featured{' '}
           <span className="bg-gradient-to-r from-primary to-accent-light bg-clip-text text-transparent">
             Projects
           </span>
-        </motion.h2>
+        </h2>
 
         <motion.div
           variants={containerVariants}
