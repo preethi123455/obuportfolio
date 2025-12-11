@@ -89,7 +89,7 @@ const Projects = () => {
   github: "https://github.com/Gurukprs/Cognissance_Website.git",
   demo: "https://cognissance25.vercel.app",
   image:
-    "#",
+    "/image2.jpg",
   learnMore: "/portfolio-details"
 },
 
@@ -98,8 +98,10 @@ const Projects = () => {
   description:
     "An intuitive and user-friendly bus booking interface designed in Figma to simplify ticket booking and travel planning. The design includes smooth navigation flows, seat selection screens, route listings, payment steps, and responsive layouts focused on delivering a seamless user experience.",
   tags: ["Figma", "UI/UX Design", "Prototyping", "User Flow"],
+   github: "#",
+  showGithub: false,
   demo: "https://www.figma.com/design/NEgDF0N2OlDa6D619HudK0/Untitled?node-id=0-1&t=hO1htFRrvs2BAiKM-1", 
-  image: "https://media.licdn.com/dms/image/v2/D5612AQHHTTICSfxTgg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1693153639814?e=2147483647&v=beta&t=wnQme2KlFUkFjzB7ydAEDsbKggNKgZefaKz_36RtDeY", 
+  image: "/image.png", 
   learnMore: "/portfolio-details"
 },
 
@@ -108,8 +110,10 @@ const Projects = () => {
   description:
     "A modern and visually engaging online bookstore interface designed in Figma to deliver a seamless shopping experience for book enthusiasts. The design includes organized category browsing, detailed book pages, smooth checkout flows, and intuitive navigation to improve user engagement and accessibility.",
   tags: ["Figma", "UI/UX Design", "Prototyping", "Wireframing"],
+   github: "#",
+  showGithub: false,
   demo: "https://www.figma.com/design/ozrx9GHHH8lVps0KMlCXSW/Untitled?node-id=12-36&t=hf1C75OyPzuylqGe-1", 
-  image: "https://www.shutterstock.com/image-illustration/bookcase-full-books-contemporary-cozy-600nw-2421980715.jpg", 
+  image: "image3.jpg", 
   learnMore: "/portfolio-details"
 },
   ]
@@ -192,12 +196,15 @@ const Projects = () => {
 
                   {/* Links */}
                    <div className="flex gap-3 pt-4 mt-auto border-t border-white/20">
-                    <a
-                      href={project.github}
-                      className="flex-1 px-4 py-2 bg-foreground text-white text-sm font-semibold rounded-lg hover:bg-primary transition-colors text-center"
-                    >
-                      GitHub
-                    </a>
+                    {project.showGithub !== false && (
+  <a
+    href={project.github}
+    className="flex-1 px-4 py-2 bg-foreground text-white text-sm font-semibold rounded-lg hover:bg-primary transition-colors text-center"
+  >
+    GitHub
+  </a>
+)}
+
                     <a
                       href={project.demo}
                       className="flex-1 px-4 py-2 bg-primary text-white text-sm font-semibold rounded-lg hover:bg-primary-dark transition-colors text-center"
