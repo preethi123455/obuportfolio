@@ -81,6 +81,38 @@ const Projects = () => {
     "https://miro.medium.com/1*IGda1f7np5KIup0lMHBjWg.jpeg",
   learnMore: "/portfolio-details",
 },
+{
+  title: "Cognissance – CSE Department Event Promotion Website",
+  description:
+    "An interactive event promotion website built for the CSE Department to showcase event details, schedules, rules, and registrations. Instead of using traditional forms like google forms, we integrated Google Sheets with Node.js to store and manage registrations seamlessly. The site includes smooth animations, a responsive UI, and a clean structure for better engagement and participation.",
+  tags: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "Node.js", "Google Sheets API"],
+  github: "https://github.com/Gurukprs/Cognissance_Website.git",
+  demo: "cognissance25.vercel.app",
+  image:
+    "/image1.jpg",
+  learnMore: "/portfolio-details"
+},
+
+{
+  title: "Bus Booking Platform – Figma UI Design",
+  description:
+    "An intuitive and user-friendly bus booking interface designed in Figma to simplify ticket booking and travel planning. The design includes smooth navigation flows, seat selection screens, route listings, payment steps, and responsive layouts focused on delivering a seamless user experience.",
+  tags: ["Figma", "UI/UX Design", "Prototyping", "User Flow"],
+  demo: "https://www.figma.com/design/NEgDF0N2OlDa6D619HudK0/Untitled?node-id=0-1&t=hO1htFRrvs2BAiKM-1", 
+  image: "/image.png", 
+  learnMore: "/portfolio-details"
+},
+{
+  title: "Online Bookstore Platform – Figma UI Design",
+  description:
+    "A modern and visually engaging online bookstore interface designed in Figma to deliver a seamless shopping experience for book enthusiasts. The design includes organized category browsing, detailed book pages, smooth checkout flows, and intuitive navigation to improve user engagement and accessibility.",
+  tags: ["Figma", "UI/UX Design", "Prototyping", "Wireframing"],
+  demo: "https://www.figma.com/design/ozrx9GHHH8lVps0KMlCXSW/Untitled?node-id=12-36&t=hf1C75OyPzuylqGe-1", 
+  image: "/image3.jpg", 
+  learnMore: "/portfolio-details"
+},
+
+
 
 
   ]
