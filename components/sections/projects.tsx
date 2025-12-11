@@ -102,6 +102,7 @@ const Projects = () => {
   image: "/image.png", 
   learnMore: "/portfolio-details"
 },
+
 {
   title: "Online Bookstore Platform – Figma UI Design",
   description:
