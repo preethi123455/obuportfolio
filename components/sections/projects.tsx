@@ -95,7 +95,7 @@ const Projects = () => {
       title: 'Bus Booking – Figma UI',
       description: 'End-to-end Figma UI flow for bus ticket booking.',
       tags: ['Figma', 'UI/UX'],
-      demo: 'https://www.figma.com/design/NEgDF0N2OlDa6D619HudK0/Untitled',
+      demo: 'https://www.figma.com/design/NEgDF0N2OlDa6D619HudK0/Untitled?node-id=0-1&t=hO1htFRrvs2BAiKM-1',
       image: 'https://static.abhibus.com/images/herosection/operators/seo-mobile-default.webp',
       learnMore: '/portfolio-details',
     },
@@ -103,7 +103,7 @@ const Projects = () => {
       title: 'Online Bookstore – Figma UI',
       description: 'Elegant UI design for online book shopping.',
       tags: ['Figma', 'UI/UX'],
-      demo: 'https://www.figma.com/design/ozrx9GHHH8lVps0KMlCXSW/Untitled',
+      demo: 'https://www.figma.com/design/ozrx9GHHH8lVps0KMlCXSW/Untitled?node-id=12-36&t=hf1C75OyPzuylqGe-1',
       image: 'https://images.unsplash.com/photo-1518373714866-3f1478910cc0',
       learnMore: '/portfolio-details',
     }
