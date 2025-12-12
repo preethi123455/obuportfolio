@@ -127,9 +127,12 @@ const Projects = () => {
       ref={inViewRef}
       initial="hidden"
       animate={isInView ? 'visible' : 'hidden'}
-      className="min-h-screen flex items-center justify-center py-20 px-6 bg-background"
+      className="min-h-screen py-20 px-6 bg-background"
+
     >
-      <div className="max-w-6xl w-full">
+    <div className="w-full max-w-6xl mx-auto">
+
+
 
         <h2 className="text-4xl lg:text-5xl font-bold mb-16 text-center text-foreground">
           Featured <span className="bg-gradient-to-r from-primary to-accent-light bg-clip-text text-transparent">Projects</span>
