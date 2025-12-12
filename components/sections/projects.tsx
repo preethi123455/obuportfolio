@@ -5,8 +5,8 @@ import { useInView } from 'react-intersection-observer';
 
 const Projects = () => {
   const { ref: inViewRef, inView: isInView } = useInView({
-    triggerOnce: true,
-    threshold: 0.2,
+    triggerOnce: false,
+    threshold: 0.1,
   });
 
   const projects = [
@@ -113,26 +113,23 @@ const Projects = () => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.2 },
+      transition: { staggerChildren: 0.15 },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
   };
 
   return (
     <motion.section
       ref={inViewRef}
-      initial="hidden"
-      animate={isInView ? 'visible' : 'hidden'}
+      initial="visible"
+      animate="visible"
       className="min-h-screen py-20 px-6 bg-background"
-
     >
-    <div className="w-full max-w-6xl mx-auto">
-
-
+      <div className="w-full max-w-6xl mx-auto">
 
         <h2 className="text-4xl lg:text-5xl font-bold mb-16 text-center text-foreground">
           Featured <span className="bg-gradient-to-r from-primary to-accent-light bg-clip-text text-transparent">Projects</span>
@@ -146,17 +143,17 @@ const Projects = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              whileHover={{ y: -10 }}
+              whileHover={{ y: -8 }}
               className="group h-full flex flex-col"
             >
-              <div className="glass rounded-2xl overflow-hidden border border-white/20 hover:border-primary/50 transition-all hover:shadow-2xl hover:shadow-primary/20 flex flex-col h-full">
+              <div className="glass rounded-2xl overflow-hidden border border-white/20 hover:border-primary/50 transition-all hover:shadow-xl flex flex-col h-full">
 
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={project.image}
                     alt={project.title}
                     loading="lazy"
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-full object-cover"
                   />
                 </div>
 
