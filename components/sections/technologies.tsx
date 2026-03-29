@@ -14,17 +14,17 @@ const Technologies = () => {
     { name: 'Node.js', icon: '🟢', color: 'from-green-400 to-green-600' },
     { name: 'Express', icon: '🚀', color: 'from-gray-600 to-gray-800' },
     { name: 'MongoDB', icon: '🍃', color: 'from-green-500 to-emerald-700' },
-    { name: 'TypeScript', icon: '📘', color: 'from-blue-500 to-indigo-700' },
-    { name: 'Tailwind CSS', icon: '🎨', color: 'from-cyan-400 to-cyan-600' },
+    { name: 'Java', icon: '📘', color: 'from-blue-500 to-indigo-700' },
+    { name: 'Github', icon: '', color: 'from-cyan-400 to-cyan-600' },
     { name: 'Git', icon: '📦', color: 'from-orange-500 to-red-700' },
     { name: 'Python', icon: '🐍', color: 'from-blue-400 to-blue-700' },
     { name: 'HTML', icon: '🌐', color: 'from-orange-400 to-red-500' },
   { name: 'Bootstrap', icon: '🎨', color: 'from-purple-400 to-purple-600' },
-    { name: 'Figma (UI/UX)', icon: '🖌️', color: 'from-pink-400 to-pink-600' },
-  { name: 'C & C++', icon: '💻', color: 'from-blue-600 to-gray-700' },
-  { name: 'Java & JavaScript', icon: '☕', color: 'from-red-400 to-yellow-500' },
+    { name: 'Figma ', icon: '🖌️', color: 'from-pink-400 to-pink-600' },
+  { name: 'C ', icon: '💻', color: 'from-blue-600 to-gray-700' },
+  { name: 'JavaScript', icon: '☕', color: 'from-red-400 to-yellow-500' },
  { name: 'Data Structures in C', icon: '📚', color: 'from-indigo-400 to-indigo-600' },
- { name: 'Artificial Intelligence (Model Training)', icon: '🤖', color: 'from-purple-500 to-pink-600' },
+ { name: 'Artificial Intelligence Integration', icon: '🤖', color: 'from-purple-500 to-pink-600' },
 
   ]
 
